@@ -1,0 +1,7 @@
+---
+- name: "Install lm-sensors"
+  package:
+    pkg: "{{ install_lm_sensors_packages[(ansible_os_family | lower) + '_' + (ansible_architecture | lower)] }}"
+    state: "present"
+  tags:
+    - "lm-sensors"

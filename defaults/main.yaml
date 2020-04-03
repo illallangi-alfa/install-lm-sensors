@@ -1,0 +1,6 @@
+---
+install_lm_sensors_packages:
+  debian: &debian
+    - "lm-sensors"
+  debian_armv7l: *debian
+  debian_x86_64: *debian
