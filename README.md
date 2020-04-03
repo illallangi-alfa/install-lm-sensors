@@ -1,1 +1,1 @@
-# install-sensors
+# install-lm-sensors
